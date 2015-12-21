@@ -1,1 +1,1 @@
-# ObjCInspections
+# InspectionsObjectiveC
