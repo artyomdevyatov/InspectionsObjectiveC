@@ -4,30 +4,38 @@
 
 ### General
 
-#### LongLine (Line is longer than allowed by code style)
+**LongLine** (Line is longer than allowed by code style)
+
 Файлы "*.strings" не проходят данную проверку
 
-#### OCNotLocalizedStringInspection (Non-localized string)
+**OCNotLocalizedStringInspection** (Non-localized string)
+
 Маппинги, нотификации и т.д. не должны быть локализованы
 
-#### ProblematicWhitespace (Problematic whitespace)
+**ProblematicWhitespace** (Problematic whitespace)
+
 Некоторые сгенерированные Xcode файлы не проходят данную проверку
 
-#### StringLocalizationInspection (String localization)
+**StringLocalizationInspection** (String localization)
+
 Файлы локализации storyboard не проходят данную проверку
 
-#### TodoComment (TODO Comment)
+**TodoComment** (TODO Comment)
+
 В нарушении данной проверки нет ничего плохого
 
-#### ResourceNotFoundInspection (Resource not found)
+**ResourceNotFoundInspection** (Resource not found)
+
 Файлы, ссылающиеся на созданные динамически ресурсы не проходят проверку
 
 ### Spelling
 
-#### SpellScheckingInspection (Typo)
+**SpellScheckingInspection** (Typo)
+
 95% файлов не проходят данную инспекцию
 
 ### XML
 
-#### (XML tag empty body)
+**CheckTagEmptyBody** (XML tag empty body)
+
 Файлы Mapping Model не проходят данную проверку
