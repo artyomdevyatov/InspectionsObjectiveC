@@ -4,7 +4,7 @@
 
 ### General
 
-**LongLine** (Line is longer than allowed by code style) 
+**LongLine** (Line is longer than allowed by code style)  
 Файлы "*.strings" не проходят данную проверку
 
 **OCNotLocalizedStringInspection** (Non-localized string)
