@@ -1,23 +1,24 @@
 # InspectionsObjectiveC
 
+Все перечисленные ниже проверки устанавливаются вручную. Все остальные проверки устанавливаются по умолчанию.
+
+## Включенные проверки
+
+**EqualityInConditionalOperatorWithSelf** ('=' in conditional expression with "self")
+
+**ImplicitDeclarationOfIvar** (Implicit declaration of ivar)
+
+**SeveralTargetsMessage** (Several targets message)
+
 ## Отключенные проверки
 
 ### General
 
-**LongLine** (Line is longer than allowed by code style)  
-Файлы "*.strings" не проходят данную проверку
-
 **OCNotLocalizedStringInspection** (Non-localized string)  
 Маппинги, нотификации и т.д. не должны быть локализованы
 
-**ProblematicWhitespace** (Problematic whitespace)  
-Некоторые сгенерированные Xcode файлы не проходят данную проверку
-
 **StringLocalizationInspection** (String localization)  
 Файлы локализации storyboard не проходят данную проверку
-
-**TodoComment** (TODO Comment)  
-В нарушении данной проверки нет ничего плохого
 
 **ResourceNotFoundInspection** (Resource not found)  
 Файлы, ссылающиеся на созданные динамически ресурсы не проходят проверку
