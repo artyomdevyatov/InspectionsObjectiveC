@@ -32,3 +32,8 @@
 
 **CheckTagEmptyBody** (XML tag empty body)  
 Файлы Mapping Model не проходят данную проверку
+
+## SomeEntity+CoreDataProperties.h
+
+Файлы Core Data моделей не проходят проверки *OCUnusedGlobalDeclarationInspection*, *OCUnusedMethodInspection*, *OCUnusedPropertyInspection*. Отключать данные проверки не хочется, каждый раз писать игноры тем более. Решение: заменить файлы-шаблоны, которые использует Xcode.  
+Шаблоны Xcode 7.1.1 располагаются в дирректории *~/Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File Templates/*
